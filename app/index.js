@@ -1,11 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var routes = require('./config/routes');
-var Raven = require('raven-js');
-
-var sentryKey = ''
-var sentryApp = ''
-var sentryURL = 'https://' + sentryKey + '@app.getsentry.com/' + sentryApp
 
 var _APP_INFO = {
   name: 'GitHub Battle',
