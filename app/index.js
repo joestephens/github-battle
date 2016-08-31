@@ -8,8 +8,6 @@ var _APP_INFO = {
   version: '1.0'
 }
 
-console.log(window.thing.nope)
-
 ReactDOM.render(
   routes,
   document.getElementById('app')
