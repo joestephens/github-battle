@@ -8,13 +8,6 @@ var _APP_INFO = {
   version: '1.0'
 }
 
-Raven.config(sentryURL, {
-  release: _APP_INFO.version,
-  tags: {
-    branch: _APP_INFO.branch
-  }
-}).install()
-
 console.log(window.thing.nope)
 
 ReactDOM.render(
